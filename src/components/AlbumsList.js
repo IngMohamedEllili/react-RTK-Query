@@ -39,6 +39,5 @@ export default function AlbumsList({ user }) {
         {content}
       </div>
     </div>
-
   )
 }
