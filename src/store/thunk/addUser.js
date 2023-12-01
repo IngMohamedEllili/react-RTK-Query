@@ -1,8 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-
-const fetchUsers = createAsyncThunk('users/fetch', async () => {
-  const response = await axios.get('http://localhost:3005/users')
+import { faker } from '@faker-js/faker'
+export const addUser = createAsyncThunk('user/add', async () => {
+  const response = await axios.post('http://localhost:3005/users', { name: faker.person.fullName() })
   await pause(1000)
   return response.data
 })
@@ -13,4 +13,3 @@ const pause = (duration) => {
     setTimeout(resolve, duration)
   })
 }
-export { fetchUsers }
