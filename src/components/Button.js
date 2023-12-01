@@ -1,7 +1,8 @@
 import className from 'classnames';
 import PropTypes from 'prop-types';
-
+import { GoSync } from 'react-icons/go'
 export default function Button({
+  loading,
   children,
   primary,
   secondary,
@@ -18,7 +19,9 @@ export default function Button({
     'px-3',
     'py-1.5',
     'border',
+    'h-8',
     {
+      'opacity-80': loading,
       'border-blue-500 bg-blue-500 text-white': primary,
       'border-gray-900 bg-gray-900 text-gray': secondary,
       'border-green-500 bg-green-500 text-green': success,
@@ -35,13 +38,14 @@ export default function Button({
   );
 
   return (
-    <button {...rest} className={buttonClassName}>
-      {children}
+    <button {...rest} disabled={loading} className={buttonClassName}>
+      {loading ? <GoSync className='animate-spin' /> : children}
     </button>
   );
 }
 
 Button.propTypes = {
+  loading: PropTypes.bool,
   chilren: PropTypes.string,
   outline: PropTypes.bool,
   rounded: PropTypes.bool,
