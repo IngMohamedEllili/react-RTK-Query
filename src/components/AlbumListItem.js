@@ -8,6 +8,7 @@ export default function AlbumsListItem({ album }) {
   const handleDeleteAlbum = () => {
     removeAlbum(album)
   }
+  
   const header = <>
     <Button className='mr-3' loading={results.isLoading}>
       <GoTrashcan onClick={handleDeleteAlbum} color="red" />
