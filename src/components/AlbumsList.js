@@ -1,14 +1,13 @@
 import { useAddAlbumMutation, useFetchAlbumsQuery } from "../store"
 import AlbumsListItem from "./AlbumListItem"
 import Button from "./Button"
-import ExpandablePanel from "./ExpandablePanel"
 import Skeleton from "./Skeleton"
 
 export default function AlbumsList({ user }) {
-  const { data, isLoading, error } = useFetchAlbumsQuery(user)
+  const { data, isFetching, error } = useFetchAlbumsQuery(user)
   const [addAlbum, results] = useAddAlbumMutation()
   let content
-  if (isLoading) {
+  if (isFetching) {
     content = <Skeleton times={3} className='h-3 w-full' />
   } else if (error) {
     content = <div>

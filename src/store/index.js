@@ -15,4 +15,4 @@ export const store = configureStore({
 setupListeners(store.dispatch)
 
 export * from './thunk'
-export { useFetchAlbumsQuery, useAddAlbumMutation } from './apis/albumApi'
+export { useFetchAlbumsQuery, useAddAlbumMutation, useRemoveAlbumMutation } from './apis/albumApi' 
