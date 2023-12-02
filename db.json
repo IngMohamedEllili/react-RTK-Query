@@ -1,63 +1,23 @@
 {
   "users": [
     {
-      "name": "Irving Becker",
-      "id": 1
-    },
-    {
       "name": "Roosevelt Jenkins",
       "id": 2
     },
     {
       "name": "Gwendolyn Paucek",
       "id": 3
+    },
+    {
+      "name": "Mr. Frederick Hahn DVM",
+      "id": 4
     }
   ],
   "albums": [
     {
-      "userId": 1,
-      "title": "Oriental Fresh Chair",
+      "userId": 2,
+      "title": "Intelligent Rubber Ball",
       "id": 1
-    },
-    {
-      "userId": 2,
-      "title": "Practical Fresh Computer",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "title": "Sleek Plastic Hat",
-      "id": 3
-    },
-    {
-      "userId": 2,
-      "title": "Fantastic Plastic Car",
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "title": "Handcrafted Concrete Hat",
-      "id": 5
-    },
-    {
-      "userId": 3,
-      "title": "Sleek Rubber Cheese",
-      "id": 6
-    },
-    {
-      "userId": 1,
-      "title": "Unbranded Rubber Cheese",
-      "id": 7
-    },
-    {
-      "userId": 1,
-      "title": "Gorgeous Wooden Bacon",
-      "id": 8
-    },
-    {
-      "userId": 1,
-      "title": "Handmade Wooden Shirt",
-      "id": 9
     }
   ],
   "photos": []
