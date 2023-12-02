@@ -1,90 +1,24 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
-    },
-    {
-      "name": "Ebony Christiansen",
+      "name": "Roosevelt Jenkins",
       "id": 2
     },
     {
-      "name": "Pedro Rutherford",
+      "name": "Gwendolyn Paucek",
       "id": 3
     },
     {
-      "name": "Wallace Jacobson",
+      "name": "Mr. Frederick Hahn DVM",
       "id": 4
-    },
-    {
-      "name": "Archie Reichert V",
-      "id": 5
-    },
-    {
-      "name": "Marsha Willms",
-      "id": 6
-    },
-    {
-      "name": "Angel Jast",
-      "id": 7
-    },
-    {
-      "name": "Anthony Lindgren",
-      "id": 8
-    },
-    {
-      "name": "Billy Heidenreich",
-      "id": 9
-    },
-    {
-      "name": "Wilbur Pfannerstill",
-      "id": 10
-    },
-    {
-      "name": "Marilyn Shields",
-      "id": 11
-    },
-    {
-      "name": "Paul Conroy",
-      "id": 12
-    },
-    {
-      "name": "Angie Abernathy",
-      "id": 13
-    },
-    {
-      "name": "Leticia Langosh",
-      "id": 14
-    },
-    {
-      "name": "Walter Legros",
-      "id": 15
-    },
-    {
-      "name": "Dr. Arlene Kris",
-      "id": 16
-    },
-    {
-      "name": "Christine McDermott",
-      "id": 17
-    },
-    {
-      "name": "Kenny Dickinson",
-      "id": 18
-    },
-    {
-      "name": "Javier Rogahn",
-      "id": 19
-    },
-    {
-      "name": "Dean Becker",
-      "id": 20
-    },
-    {
-      "name": "Mrs. Cecelia O'Hara",
-      "id": 21
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 2,
+      "title": "Intelligent Rubber Ball",
+      "id": 1
+    }
+  ],
   "photos": []
 }
