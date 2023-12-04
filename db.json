@@ -18,7 +18,58 @@
       "userId": 2,
       "title": "Intelligent Rubber Ball",
       "id": 1
+    },
+    {
+      "userId": 3,
+      "title": "Fantastic Fresh Shirt",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "title": "Small Concrete Towels",
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "title": "Luxurious Bronze Bike",
+      "id": 5
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8088085705261056",
+      "id": 1
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7470053521883136",
+      "id": 3
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6864402464636928",
+      "id": 4
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5792109084803072",
+      "id": 5
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3301653755199488",
+      "id": 6
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=834424589516800",
+      "id": 7
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5400195955163136",
+      "id": 8
+    }
+  ]
 }

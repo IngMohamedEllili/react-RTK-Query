@@ -74,7 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 1 - Identify a group of related quests that your app needs to make
 2 - Make a new file that will create API
-3 - The API needs to store a ton of state related to data, request , status, error And 'reducerPath'
+3 - The API needs to store a ton of state related to data, request , status, error add 'reducerPath'
 4 - The API needs to know how and where to send requests, Add a baseQuery
 5 - ADD 'endpoints', one for each kind of request you want to make, Reqs that read data are queries, write data are mutations
 6 - Export all of the automatically generated hooks
